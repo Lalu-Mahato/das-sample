@@ -20,8 +20,8 @@ public class Bank {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    private Integer code;
-    private String name;
+    private Integer branchCode;
+    private String branchName;
     private String address;
     private String city;
     private Integer pincode;

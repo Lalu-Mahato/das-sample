@@ -22,8 +22,8 @@ public class BankService {
 
     public ResponseEntity<Object> create(AddBankDTO addBankDTO) {
         Bank bank = new Bank();
-        bank.setCode(addBankDTO.getCode());
-        bank.setName(addBankDTO.getName());
+        bank.setBranchCode(addBankDTO.getBranchCode());
+        bank.setBranchName(addBankDTO.getBranchName());
         bank.setAddress(addBankDTO.getAddress());
         bank.setCity(addBankDTO.getCity());
         bank.setPincode(addBankDTO.getPincode());

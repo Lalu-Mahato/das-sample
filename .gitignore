@@ -27,3 +27,5 @@ application.properties
 .gradle
 bin/**
 .vscode/**
+.idea/**
+/resources/data/**

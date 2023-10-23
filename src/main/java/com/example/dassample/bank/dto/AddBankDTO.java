@@ -4,8 +4,8 @@ import lombok.Data;
 
 @Data
 public class AddBankDTO {
-    private Integer code;
-    private String name;
+    private Integer branchCode;
+    private String branchName;
     private String address;
     private String city;
     private Integer pincode;
